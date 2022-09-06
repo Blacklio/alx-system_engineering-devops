@@ -1,2 +1,2 @@
-cat > 11-lists 
-ls -al . .. /boot
+#!/bin/bash 
+ls -al . .. /boot 
