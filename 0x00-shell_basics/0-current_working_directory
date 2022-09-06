@@ -1,3 +1,2 @@
-#!/bin/bash
-path=$(realpath "$0") 
-echo $path 
+#!/bin/bash 
+pwd
