@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $((POWEER / DIVIDE))
+#!/bin/bash 
+echo $((POWER / DIVIDE))
