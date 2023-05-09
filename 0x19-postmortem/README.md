@@ -4,7 +4,7 @@ On April 15, 2023, from 12:00 PM to 1:30 PM (EST), our web application experienc
 
 ## Timeline:
 
-vbnet
+```vbnet
 
 12:00 PM: The issue was first detected by the monitoring system, which alerted the on-call engineer.
 12:05 PM: The engineer investigated the issue and identified that the checkout process was failing, resulting in a 500 server error.
@@ -13,6 +13,7 @@ vbnet
 12:40 PM: The development team identified a software bug in the payment gateway integration code that caused the API to crash under high traffic.
 1:00 PM: The development team deployed a fix to the production environment, and the API responded normally.
 1:30 PM: The monitoring system reported that the checkout process was functioning normally, and the incident was resolved.
+```
 
 ## Root Cause and Resolution:
 The root cause of the issue was a software bug in the payment gateway integration code, which caused the API to crash under high traffic. The development team fixed the bug by updating the code to handle high traffic requests more efficiently. The fix was deployed to the production environment, and the API began responding normally.
@@ -20,15 +21,18 @@ The root cause of the issue was a software bug in the payment gateway integratio
 ## Corrective and Preventative Measures:
 To prevent similar incidents from occurring in the future, we will implement the following corrective and preventative measures:
 
-css
+```css
 
 Conduct a code review of the payment gateway integration code to identify and fix any other potential software bugs.
 Add additional monitoring to the payment gateway API to alert the team of any abnormalities.
 Increase the capacity of the payment gateway infrastructure to handle high traffic loads.
 Conduct load testing on the payment gateway API to identify potential performance bottlenecks.
 Improve communication between teams to ensure faster incident response times.
+```
 
 Despite the seriousness of the situation, there's always room for humor in post-mortems. Here's a lighthearted illustration of the incident:
+
+![alt text](https://i.redd.it/e1fvfqdxncr61.png)
 
 Outage Postmortem Cartoon
 
